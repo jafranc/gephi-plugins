@@ -11,13 +11,13 @@
     <description>Parent POM for all Gephi plugins</description>
     <inceptionYear>2015</inceptionYear>
     
-    <url>http://github.com/gephi/gephi-plugins</url>
+    <url>http://github.com/jafranc/gephi-plugins</url>
     
     <!-- SCM -->
     <scm>
-        <connection>scm:git:git://github.com/gephi/gephi-plugins.git</connection>
-        <developerConnection>scm:git:git@github.com:gephi/gephi-plugins.git</developerConnection>
-        <url>https://github.com/gephi/gephi-plugins</url>
+        <connection>scm:git:git://github.com/jafranc/gephi-plugins.git</connection>
+        <developerConnection>scm:git:git@github.com:jafranc/gephi-plugins.git</developerConnection>
+        <url>https://github.com/jafranc/gephi-plugins</url>
     </scm>
     
     <!-- License -->

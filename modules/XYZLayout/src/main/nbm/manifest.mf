@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Name: XYZLayout
+OpenIDE-Module-Short-Description: A layout to display XYZ data
+OpenIDE-Module-Long-Description: This plugin contains the "XYZLayout", which displays your graph based on XYZ attributes and ortho-projections.
+OpenIDE-Module-Display-Category: Layout

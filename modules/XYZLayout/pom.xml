@@ -8,11 +8,11 @@
     </parent>
 
     <groupId>org.gephi</groupId>
-    <artifactId>geolayout-plugin</artifactId>
+    <artifactId>xyzlayout-plugin</artifactId>
     <version>0.9.1.2</version>
     <packaging>nbm</packaging>
 
-    <name>GeoLayoutPlugin</name>
+    <name>XyzLayoutPlugin</name>
 
     <dependencies>
         <dependency>

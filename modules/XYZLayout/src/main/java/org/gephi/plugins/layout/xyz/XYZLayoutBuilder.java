@@ -39,7 +39,7 @@ Contributor(s):
 
 Portions Copyrighted 2011 Gephi Consortium.
  */
-package org.gephi.plugins.layout.geo;
+package org.gephi.plugins.layout.xyz;
 
 import javax.swing.Icon;
 import javax.swing.JPanel;
@@ -51,15 +51,15 @@ import org.openide.util.lookup.ServiceProvider;
 
 /**
  *
- * @author Alexis Jacomy
+ * @author JeF
  */
 @ServiceProvider(service = LayoutBuilder.class)
-public class GeoLayoutBuilder implements LayoutBuilder {
+public class XYZLayoutBuilder implements LayoutBuilder {
 
-    private final GeoLayoutUI ui = new GeoLayoutUI();
+    private final XYZLayoutUI ui = new XYZLayoutUI();
 
     public String getName() {
-        return "Geo Layout";
+        return "XYZ Layout";
     }
 
     public LayoutUI getUI() {
@@ -67,13 +67,13 @@ public class GeoLayoutBuilder implements LayoutBuilder {
     }
 
     public Layout buildLayout() {
-        return new GeoLayout(this);
+        return new XYZLayout(this);
     }
 
-    private static class GeoLayoutUI implements LayoutUI {
+    private static class XYZLayoutUI implements LayoutUI {
 
         public String getDescription() {
-            return NbBundle.getMessage(GeoLayoutUI.class, "GeoLayout.ui.description");
+            return NbBundle.getMessage(XYZLayoutUI.class, "XYZLayout.ui.description");
         }
 
         public Icon getIcon() {

@@ -39,13 +39,13 @@ Contributor(s):
 
 Portions Copyrighted 2011 Gephi Consortium.
  */
-package org.gephi.plugins.layout.geo;
+package org.gephi.plugins.layout.xyz;
 
 import java.beans.PropertyEditorSupport;
 
 /**
  *
- * @author Alexis Jacomy
+ * @author JeF
  */
 abstract class AbstractProjectionPropertyEditor extends PropertyEditorSupport {
 
@@ -55,7 +55,7 @@ abstract class AbstractProjectionPropertyEditor extends PropertyEditorSupport {
 
     @Override
     public String[] getTags() {
-        return GeoLayout.rows;
+        return XYZLayout.rows;
     }
 
     @Override
@@ -65,7 +65,7 @@ abstract class AbstractProjectionPropertyEditor extends PropertyEditorSupport {
 
     @Override
     public void setValue(Object value) {
-        for (String row : GeoLayout.rows) {
+        for (String row : XYZLayout.rows) {
             if (row.equals((String) value)) {
                 selectedRow = row;
                 break;

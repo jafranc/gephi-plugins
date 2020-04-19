@@ -1,0 +1,14 @@
+
+XYZLayout.centered.name = Center
+XYZLayout.centered.desc = If set as true, the graph will be centered with the barycenter on the origin of the plan.
+
+XYZLayout.latitude.name = X
+XYZLayout.latitude.desc = x coords
+
+XYZLayout.longitude.name = Y
+XYZLayout.longitude.desc = Y coords
+
+XYZLayout.projection.name = Projection
+XYZLayout.projection.desc = Projection plane
+
+XYZLayout.ui.description = Layout for XYZ coordinates

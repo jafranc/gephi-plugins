@@ -39,11 +39,11 @@ Contributor(s):
 
 Portions Copyrighted 2011 Gephi Consortium.
  */
-package org.gephi.plugins.layout.geo;
+package org.gephi.plugins.layout.xyz;
 
 /**
  *
- * @author Alexis Jacomy
+ * @author JeF
  */
 public class CustomComboBoxEditor extends AbstractProjectionPropertyEditor {
 
